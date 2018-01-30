@@ -44,7 +44,7 @@ public class Server {
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-
+			
 		}
 		// 7777port로 들어와//다른 사람들이 한 포트로 동시연결은 안됨
 		// firewall로 막으면 특정 포트 이외 다 막음
