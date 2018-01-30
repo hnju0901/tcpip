@@ -16,6 +16,7 @@ public class Server {
 		InputStream in = null;
 		InputStreamReader inr = null;
 		BufferedReader br = null;// 일정량의 메모리 안에서 들어오는 string을 라인별, 문장별로 읽을 수 있음//
+		
 		try {
 			serverSocket = new ServerSocket(7777);
 			InetAddress ia = InetAddress.getLocalHost();
