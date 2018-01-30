@@ -1,6 +1,6 @@
-package tcpip2;
+package client;
 
-public class Crazy {
+public class Client {
 
 	public static void main(String[] args) {
 		int a = 10;
