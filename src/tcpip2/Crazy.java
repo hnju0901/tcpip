@@ -6,6 +6,7 @@ public class Crazy {
 		int a = 10;
 		int b=10;
 		int c=30;
+		int d=40;
 	}
 	
 }
