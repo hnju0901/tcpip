@@ -7,6 +7,7 @@ public class RunView {
 		View2 view =new View2();
 		view.makeUi();
 
+		String i = "";
 	}
 
 }
