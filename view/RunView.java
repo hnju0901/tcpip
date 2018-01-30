@@ -6,8 +6,7 @@ public class RunView {
 	public static void main(String[] args) {
 		View2 view =new View2();
 		view.makeUi();
-
-		String i = "";
+		
 	}
 
 }
