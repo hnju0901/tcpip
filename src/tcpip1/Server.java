@@ -24,7 +24,6 @@ public class Server {
 			System.out.println(ia.getHostName());
 			System.out.println(ia.getHostAddress());
 			System.out.println("Strat Server ....");
-
 			while (true) {
 				socket = serverSocket.accept();
 				System.out.println("Client Connected ..");
