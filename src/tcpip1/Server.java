@@ -11,7 +11,7 @@ public class Server {
 		try {
 			serverSocket = new ServerSocket(7777);
 			InetAddress ia = InetAddress.getLocalHost();
-			//사용자의 ip주송와 이름 정보 얻을 수 잇음
+			//사용자의 ip주송와 이름 정보 얻을 수 잇음//
 			System.out.println(ia.getHostName());
 			System.out.println(ia.getHostAddress());
 		} catch (IOException e) {
