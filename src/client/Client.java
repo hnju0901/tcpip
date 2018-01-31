@@ -1,12 +1,12 @@
 package client;
 
 public class Client {
-
+//ip나 port변경, clientchat 시작하고 chat.를 시작
 	public static void main(String[] args) {
-		int a = 10;
-		int b=10;
-		int c=30;
-		int d=40;
+		String ip = "70.12.111.130";
+		int port = 8888;
+		ClientChat chat = null;
+		chat = new ClientChat(ip, port);
 	}
 	
 }
