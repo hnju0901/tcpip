@@ -1,4 +1,4 @@
-package sercer;
+package server;
 
 public class ServerReciever {
 

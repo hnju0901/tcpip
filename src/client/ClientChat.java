@@ -19,7 +19,8 @@ public class ClientChat {
 	public ClientChat() {
 
 	}
-
+//클라이언트가 접속할 때 마다 server에 socket이 새로 생겨야해
+	// 그 socket들을 arrayList에 담아
 	public ClientChat(String ip, int port) {
 		this.ip = ip;
 		this.port = port;

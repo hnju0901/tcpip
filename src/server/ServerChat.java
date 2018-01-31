@@ -1,4 +1,4 @@
-package sercer;
+package server;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -33,7 +33,7 @@ public class ServerChat {
 		}
 	}
 	private void start() throws IOException {
-		socket = serverSocket.accept();
+		socket = serverSocket.accept();//socket기다린다는 뜻//1. 누군가 드어올 때마다 socket만들어줌
 		scanner = new Scanner(System.in);
 		
 		Receiver receicver = new Receiver();

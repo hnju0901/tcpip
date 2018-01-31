@@ -1,4 +1,4 @@
-package sercer;
+package server;
 
 import java.util.List;
 import java.util.StringTokenizer;
